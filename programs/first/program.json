@@ -1,0 +1,79 @@
+{
+  "control": {
+    "running": false,
+    "resetting": false,
+    "mode": 1
+  },
+  "blockInstances": [
+    {
+      "id": "values-EGT_Rq_bl",
+      "type": "values",
+      "name": "values",
+      "codeExpanded": false
+    },
+    {
+      "id": "Container-gfwEnsWHS",
+      "type": "Container",
+      "name": "Container",
+      "codeExpanded": false
+    },
+    {
+      "id": "progress-tawicvwcO",
+      "type": "progress",
+      "name": "Generic Progress Bar",
+      "codeExpanded": true
+    },
+    {
+      "id": "Ant Progress-UQI-WwhFs",
+      "type": "Ant Progress",
+      "name": "Ant Progress",
+      "codeExpanded": false,
+      "memberOverrides": {
+        "cftX_K7pL": {
+          "link": {
+            "source": "progress-tawicvwcO",
+            "path": "progress"
+          }
+        },
+        "QXpqnrHHD": {
+          "link": {
+            "source": "Container-gfwEnsWHS",
+            "path": "container"
+          }
+        },
+        "oBwBD96l5": {
+          "link": {
+            "source": "values-EGT_Rq_bl",
+            "path": "progressValue"
+          }
+        }
+      }
+    },
+    {
+      "id": "Material Progress-XyKxUQHH0",
+      "type": "Material Progress",
+      "name": "Material Progress",
+      "codeExpanded": false,
+      "memberOverrides": {
+        "CYVZTSXuG": {
+          "link": {
+            "source": "progress-tawicvwcO",
+            "path": "progress"
+          }
+        },
+        "9da5bHgwC": {
+          "link": {
+            "source": "Container-gfwEnsWHS",
+            "path": "container"
+          }
+        },
+        "hiKUg5HkC": {
+          "link": {
+            "source": "values-EGT_Rq_bl",
+            "path": "progressValue"
+          }
+        }
+      }
+    }
+  ]
+}
