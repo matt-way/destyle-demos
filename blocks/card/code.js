@@ -10,8 +10,12 @@ const UserCard = ({ styles }) => (
       src="https://image.ibb.co/cXRUZe/image.png"
     />
     <div className={styles.content}>
-      <div className={styles.name}>Disco</div>
-      <div className={styles.details}>I'm having a wonderful time!</div>
+      <div className={styles.name}>
+        Disco
+      </div>
+      <div className={styles.details}>
+        I'm having a wonderful time!
+      </div>
     </div>
   </div>
 )
@@ -23,7 +27,10 @@ const StyledUserCard = destyle(UserCard, 'UserCard')
 setStyles('UserCard', {
   container: props => css`
     font-family: 'Arial';
-    background-color: ${props.active ? "#d2c7ff" : "#f5f5f5"};
+    background-color: ${props.active 
+  		? "#d2c7ff" 
+  		: "#f5f5f5"
+		};
     height: 128px;
     width: 100%;
   `,
@@ -33,7 +40,10 @@ setStyles('UserCard', {
     width: 128px;
     border-right-style: solid;
     border-right-width: 4px;
-    border-right-color: ${props.active ? "#D05E5E" : "#111"};
+    border-right-color: ${props.active 
+  		? "#D05E5E" 
+  		: "#111"
+		};
   `,
   content: css`
     float: left;
