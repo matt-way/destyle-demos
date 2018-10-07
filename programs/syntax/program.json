@@ -1,0 +1,28 @@
+{
+  "control": {
+    "running": true,
+    "mode": 0
+  },
+  "blockInstances": [
+    {
+      "id": "Container-PzSYtQjJN",
+      "type": "Container",
+      "name": "Container",
+      "codeExpanded": false
+    },
+    {
+      "id": "basic-SRe_GlppW",
+      "type": "basic",
+      "name": "basic",
+      "codeExpanded": true,
+      "memberOverrides": {
+        "iZATz_iV6": {
+          "link": {
+            "source": "Container-PzSYtQjJN",
+            "path": "container"
+          }
+        }
+      }
+    }
+  ]
+}

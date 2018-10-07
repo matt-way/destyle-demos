@@ -1,6 +1,6 @@
 {
   "control": {
-    "running": false,
+    "running": true,
     "resetting": false,
     "mode": 1
   },
@@ -21,7 +21,7 @@
       "id": "progress-tawicvwcO",
       "type": "progress",
       "name": "Generic Progress Bar",
-      "codeExpanded": true
+      "codeExpanded": false
     },
     {
       "id": "Ant Progress-UQI-WwhFs",
@@ -53,7 +53,7 @@
       "id": "Material Progress-XyKxUQHH0",
       "type": "Material Progress",
       "name": "Material Progress",
-      "codeExpanded": false,
+      "codeExpanded": true,
       "memberOverrides": {
         "CYVZTSXuG": {
           "link": {
