@@ -14,7 +14,7 @@ const UserCard = ({ styles }) => (
         Disco
       </div>
       <div className={styles.details}>
-        I'm having a wonderful time!
+        I'm having a wonderful time!!!
       </div>
     </div>
   </div>

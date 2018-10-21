@@ -1,18 +1,6 @@
 {
   "source": "code.js",
-  "members": [
-    {
-      "id": "CYVZTSXuG",
-      "stateKey": "progress"
-    },
-    {
-      "id": "9da5bHgwC",
-      "stateKey": "container"
-    },
-    {
-      "id": "hiKUg5HkC",
-      "stateKey": "value"
-    }
-  ],
-  "renderer": true
+  "members": [],
+  "renderer": true,
+  "path": "/media/matt/VolA/workspaces/destyle/blocks/Material Progress"
 }

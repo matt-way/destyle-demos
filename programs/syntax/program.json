@@ -14,15 +14,7 @@
       "id": "basic-SRe_GlppW",
       "type": "basic",
       "name": "basic",
-      "codeExpanded": true,
-      "memberOverrides": {
-        "iZATz_iV6": {
-          "link": {
-            "source": "Container-PzSYtQjJN",
-            "path": "container"
-          }
-        }
-      }
+      "codeExpanded": true
     }
   ]
 }

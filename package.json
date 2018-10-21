@@ -1,4 +1,11 @@
 {
   "name": "new-syntropy-studio-workspace",
-  "keywords": ["syntropy-studio-workspace"]
+  "keywords": [
+    "syntropy-studio-workspace"
+  ],
+  "dependencies": {
+    "destyle": "^0.3.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
 }

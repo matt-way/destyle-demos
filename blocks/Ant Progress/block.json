@@ -1,18 +1,6 @@
 {
   "source": "code.js",
-  "members": [
-    {
-      "id": "cftX_K7pL",
-      "stateKey": "progress"
-    },
-    {
-      "id": "QXpqnrHHD",
-      "stateKey": "container"
-    },
-    {
-      "id": "oBwBD96l5",
-      "stateKey": "percent"
-    }
-  ],
-  "renderer": true
+  "members": [],
+  "renderer": true,
+  "path": "/media/matt/VolA/workspaces/destyle/blocks/Ant Progress"
 }

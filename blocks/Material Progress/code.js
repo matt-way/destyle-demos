@@ -3,14 +3,14 @@ import ReactDOM from "react-dom"
 import { destyle, setStyles } from "destyle"
 import { css } from 'emotion'
 
-setStyles('ProgressMaterial', {
+setStyles('ProgressMaterial', ({ value }) => ({
   root: css`
 		height: 5px;
     background-color: #c1e1fb;
 		width: 100%;
 		position: relative;
 	`,
-  bar: ({ value }) => css`
+  bar: css`
 		background-color: #2196f3;
 		width: 100%;
     position: absolute;
@@ -21,12 +21,12 @@ setStyles('ProgressMaterial', {
     transform-origin: left;
 		transform: scaleX(${value / 100});
 	`
-})
+}))
 
-export const run = (state, { domRoot }) => {
+export const update = (state, { domRoot }) => {
   const StyledProgress = state.progress
   const Container = state.container
   ReactDOM.render(<Container>
-    <StyledProgress destyleNames="ProgressMaterial" value={state.value}/>
+    <StyledProgress destyleNames="ProgressMaterial" value={state.progressValue}/>
   </Container>, domRoot)  
 }

@@ -1,26 +1,19 @@
 {
   "control": {
-    "running": true
+    "running": false
   },
   "blockInstances": [
     {
       "id": "Container-DBJQOory8",
       "type": "Container",
-      "name": "Container"
+      "name": "Container",
+      "codeExpanded": false
     },
     {
       "id": "card-irY11O4JY",
       "type": "card",
       "name": "card",
-      "codeExpanded": true,
-      "memberOverrides": {
-        "lRyeEpu7q": {
-          "link": {
-            "source": "Container-DBJQOory8",
-            "path": "container"
-          }
-        }
-      }
+      "codeExpanded": true
     }
   ]
 }

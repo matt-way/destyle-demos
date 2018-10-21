@@ -30,7 +30,7 @@ export const run = (state, { domRoot }) => {
   const Container = state.container
   ReactDOM.render(
     <Container>
-      <StyledSimple>Hello BrisJS</StyledSimple>
+      <StyledSimple>Hello Brisbane!</StyledSimple>
   	</Container>
   , domRoot)  
 }
