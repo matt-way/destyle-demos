@@ -24,8 +24,8 @@ const StyledUserCard = destyle(UserCard, 'UserCard')
 
 /** Elsewhere **/
 
-setStyles('UserCard', {
-  container: props => css`
+setStyles('UserCard', props => ({
+  container: css`
     font-family: 'Arial';
     background-color: ${props.active 
   		? "#d2c7ff" 
@@ -34,7 +34,7 @@ setStyles('UserCard', {
     height: 128px;
     width: 100%;
   `,
-  avatar: props => css`
+  avatar: css`
     float: left;
     height: 128px;
     width: 128px;
@@ -59,9 +59,9 @@ setStyles('UserCard', {
   details: css`
     color: #444;
   `
-})
+}))
 
-export const run = (state, { domRoot }) => {  
+export const update = (state, { domRoot }) => {  
   const Container = state.container
   ReactDOM.render(
     <div>
